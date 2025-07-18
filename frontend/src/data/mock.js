@@ -84,7 +84,7 @@ export const aboutContent = {
 export const contactInfo = {
   phone: "+90 555 123 45 67",
   whatsapp: "+90 555 123 45 67",
-  email: "info@anadolutursu.com",
+  email: "info@vkusnokonserve.com",
   address: "Fatih Mahallesi, Turşu Sokak No:15, 34000 Fatih/İstanbul",
   workingHours: "Pazartesi - Cumartesi: 08:00 - 18:00",
   socialMedia: {
