@@ -1,34 +1,304 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Design System Implementation */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Foundation Colors */
+  --bg-page: #F8F5F1;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F8F5F1;
+  --bg-section: #FFFFFF;
+  
+  /* Text Colors */
+  --text-primary: #1A1A1A;
+  --text-secondary: #484848;
+  --text-muted: #707070;
+  --text-link: #333333;
+  
+  /* Borders */
+  --border-light: #E4E4E4;
+  --border-medium: #BABABA;
+  --border-strong: #767676;
+  
+  /* Brand Colors */
+  --brand-green: #006034;
+  --green-hover: #00502C;
+  --green-active: #004024;
+  
+  --brand-orange: #FF4310;
+  --orange-hover: #EB3906;
+  --orange-active: #D72F00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  background-color: var(--bg-page);
 }
 
-.App-link {
-    color: #61dafb;
+.App {
+  min-height: 100vh;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Typography */
+.display-lg {
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.heading-2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.body-xl {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body-lg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--text-muted); }
+
+/* Buttons */
+.btn-primary {
+  background: var(--brand-green);
+  color: white;
+  border: none;
+  border-radius: 42px;
+  padding: 18px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 56px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.btn-primary:hover {
+  background: var(--green-hover);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 96, 52, 0.3);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--brand-green);
+  border: 2px solid var(--brand-green);
+  border-radius: 42px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 52px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-secondary:hover {
+  background: var(--brand-green);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 96, 52, 0.2);
+}
+
+.btn-nav-toggle {
+  background: var(--brand-green);
+  border: none;
+  border-radius: 0px;
+  padding: 12px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease;
+  display: none;
+}
+
+.btn-nav-toggle:hover {
+  background: var(--green-hover);
+}
+
+/* Cards */
+.design-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.design-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-icon {
+  width: 64px;
+  height: 64px;
+  background: var(--brand-orange);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.card-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Navigation */
+.design-header {
+  background: var(--bg-page);
+  border-bottom: 1px solid var(--border-light);
+  padding: 20px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--text-link);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: rgba(0, 96, 52, 0.1);
+  color: var(--brand-green);
+}
+
+/* Layout */
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+  padding: 60px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  padding: 80px 24px 120px;
+  background: var(--bg-page);
+  text-align: center;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.bg-page { background-color: var(--bg-page); }
+.bg-card { background-color: var(--bg-card); }
+
+/* Responsive Design */
+@media (max-width: 809px) {
+  .design-header {
+    padding: 16px;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .btn-nav-toggle {
+    display: block;
+  }
+  
+  .design-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 40px 16px;
+  }
+  
+  .hero-section {
+    padding: 40px 16px 60px;
+  }
+  
+  .display-lg {
+    font-size: 38px;
+    letter-spacing: -2px;
+    line-height: 42px;
+  }
+  
+  .heading-2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .section-container {
+    padding: 0 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .design-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .design-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
