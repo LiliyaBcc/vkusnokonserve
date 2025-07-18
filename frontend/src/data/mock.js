@@ -15,57 +15,57 @@ export const companyInfo = {
 export const products = [
   {
     id: 1,
-    name: "Karışık Turşu",
-    description: "Lahana, havuç, salatalık, biber ve daha fazlası",
-    price: "₺45",
-    image: "https://images.unsplash.com/photo-1627861446476-42fd9925e151?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxwaWNrbGUlMjBqYXJzfGVufDB8fHx8MTc1Mjg1MzU5NXww&ixlib=rb-4.1.0&q=85",
-    category: "Turşu",
-    size: "1 Litre"
+    name: "İkra (Patlıcan Ezmesi)",
+    description: "Geleneksel Slav mutfağının vazgeçilmez lezzeti",
+    price: "₺85",
+    image: "/api/placeholder/400/300",
+    category: "Ezme",
+    size: "450g"
   },
   {
     id: 2,
-    name: "Ev Yapımı Kornişon",
-    description: "Taze kornişonlar, geleneksel sirke ile",
-    price: "₺35",
-    image: "https://images.unsplash.com/photo-1650072395437-223b4906207d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwcGlja2xlc3xlbnwwfHx8fDE3NTI4NTM1ODd8MA&ixlib=rb-4.1.0&q=85",
-    category: "Turşu",
-    size: "750ml"
+    name: "Marinovannie Pomidori",
+    description: "Özel baharatlarla marine edilmiş domates",
+    price: "₺75",
+    image: "/api/placeholder/400/300",
+    category: "Konserve",
+    size: "680g"
   },
   {
     id: 3,
-    name: "Biber Turşusu",
-    description: "Kapia biberleri, özel baharat karışımı ile",
-    price: "₺40",
-    image: "https://images.unsplash.com/photo-1621378580334-79a6845bb3e7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxUdXJraXNoJTIwcGlja2xlc3xlbnwwfHx8fDE3NTI4NTM1ODd8MA&ixlib=rb-4.1.0&q=85",
-    category: "Turşu",
-    size: "1 Litre"
+    name: "Marinovannie Ogurtsı",
+    description: "Geleneksel yöntemle hazırlanmış salatalık turşusu",
+    price: "₺65",
+    image: "/api/placeholder/400/300", 
+    category: "Konserve",
+    size: "680g"
   },
   {
     id: 4,
-    name: "Lahana Turşusu",
-    description: "Beyaz lahana, geleneksel fermentasyon",
-    price: "₺30",
-    image: "https://images.unsplash.com/photo-1659694459412-02735752031f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxwaWNrbGUlMjBqYXJzfGVufDB8fHx8MTc1Mjg1MzU5NXww&ixlib=rb-4.1.0&q=85",
-    category: "Turşu",
-    size: "1 Litre"
+    name: "Adjika (Acı Sos)",
+    description: "Geleneksel Kafkas acı sosu, domates ve biber karışımı",
+    price: "₺90",
+    image: "/api/placeholder/400/300",
+    category: "Sos",
+    size: "450g"
   },
   {
     id: 5,
-    name: "Geleneksel Turşu Seti",
-    description: "3 farklı turşu çeşidi bir arada",
-    price: "₺120",
-    image: "https://images.unsplash.com/photo-1633292911330-1ea4da805d27?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwcGlja2xlc3xlbnwwfHx8fDE3NTI4NTM1ODd8MA&ixlib=rb-4.1.0&q=85",
-    category: "Set",
-    size: "3 x 500ml"
+    name: "Lecho (Biber Mezesi)",
+    description: "Domates ve biber karışımı, geleneksel Macar lezzeti",
+    price: "₺80",
+    image: "/api/placeholder/400/300",
+    category: "Mezze",
+    size: "540g"
   },
   {
     id: 6,
-    name: "Sebze Karışımı",
-    description: "Mevsim sebzeleri, doğal fermentasyon",
-    price: "₺50",
-    image: "https://images.unsplash.com/photo-1664791461482-79f5deee490f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxwaWNrbGUlMjBqYXJzfGVufDB8fHx8MTc1Mjg1MzU5NXww&ixlib=rb-4.1.0&q=85",
-    category: "Turşu",
-    size: "1 Litre"
+    name: "Vkusno Karışık Set",
+    description: "3 farklı lezzet bir arada özel set",
+    price: "₺220",
+    image: "/api/placeholder/400/300",
+    category: "Set",
+    size: "3 x 450g"
   }
 ];
 
