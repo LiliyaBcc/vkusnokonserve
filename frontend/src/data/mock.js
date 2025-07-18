@@ -88,7 +88,7 @@ export const contactInfo = {
   address: "Fatih Mahallesi, Turşu Sokak No:15, 34000 Fatih/İstanbul",
   workingHours: "Pazartesi - Cumartesi: 08:00 - 18:00",
   socialMedia: {
-    instagram: "@anadolutursu",
-    facebook: "AnadoluTursu"
+    instagram: "@vkusnokonserve",
+    facebook: "VkusnoKonserve"
   }
 };
