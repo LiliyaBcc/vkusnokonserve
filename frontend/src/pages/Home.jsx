@@ -38,7 +38,7 @@ const Home = () => {
       <section className="py-20 bg-card">
         <div className="section-container">
           <h2 className="heading-2 text-center text-primary mb-16">
-            Neden Anadolu Turşuları?
+            Neden VKUSNO KONSERVE?
           </h2>
           <div className="design-grid">
             <div className="design-card">
