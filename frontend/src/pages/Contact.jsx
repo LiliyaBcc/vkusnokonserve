@@ -51,8 +51,11 @@ Mesaj: ${formData.message}`;
                 <Phone size={32} color="white" />
               </div>
               <h3 className="card-title">Telefon</h3>
-              <p className="text-lg font-medium text-green-600 mb-2">
+              <p className="text-lg font-medium text-green-600 mb-1">
                 {contactInfo.phone}
+              </p>
+              <p className="text-lg font-medium text-green-600 mb-2">
+                {contactInfo.phone2}
               </p>
               <a
                 href={`tel:${contactInfo.phone}`}
@@ -67,8 +70,11 @@ Mesaj: ${formData.message}`;
                 <MessageCircle size={32} color="white" />
               </div>
               <h3 className="card-title">WhatsApp</h3>
-              <p className="text-lg font-medium text-green-600 mb-2">
+              <p className="text-lg font-medium text-green-600 mb-1">
                 {contactInfo.whatsapp}
+              </p>
+              <p className="text-lg font-medium text-green-600 mb-2">
+                {contactInfo.whatsapp2}
               </p>
               <a
                 href={`https://wa.me/${contactInfo.whatsapp.replace(/\D/g, '')}`}
