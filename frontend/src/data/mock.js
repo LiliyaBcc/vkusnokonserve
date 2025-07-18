@@ -82,10 +82,12 @@ export const aboutContent = {
 };
 
 export const contactInfo = {
-  phone: "+90 555 123 45 67",
-  whatsapp: "+90 555 123 45 67",
-  email: "info@vkusnokonserve.com",
-  address: "Fatih Mahallesi, Turşu Sokak No:15, 34000 Fatih/İstanbul",
+  phone: "+905388300076",
+  whatsapp: "+905388300076",
+  phone2: "+905432465538",
+  whatsapp2: "+905432465538",
+  email: "vkusnokonserve@gmail.com",
+  address: "Akçaalan Mahallesi, Tuzlaburun Caddesi, No: 191/1, Serik, Antalya, Türkiye",
   workingHours: "Pazartesi - Cumartesi: 08:00 - 18:00",
   socialMedia: {
     instagram: "@vkusnokonserve",
