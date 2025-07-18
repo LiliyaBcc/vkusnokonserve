@@ -8,7 +8,7 @@ export const companyInfo = {
   location: "İstanbul, Türkiye",
   whatsapp: "+90 555 123 45 67",
   address: "Fatih Mahallesi, Turşu Sokak No:15, 34000 Fatih/İstanbul",
-  email: "info@anadolutursu.com",
+  email: "info@vkusnokonserve.com",
   workingHours: "Pazartesi - Cumartesi: 08:00 - 18:00"
 };
 
