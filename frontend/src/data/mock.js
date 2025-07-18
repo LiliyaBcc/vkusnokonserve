@@ -5,10 +5,10 @@ export const companyInfo = {
   tagline: "Slav Lezzetleri Türkiye'de",
   description: "2013'ten beri sevgiyle üretilen, doğal ve lezzetli konserveler. Büyükannelerimizin tariflerinden ilham alarak hazırladığımız geleneksel Slav tatlarını Türkiye'ye getiriyoruz.",
   establishedYear: "2013",
-  location: "İstanbul, Türkiye",
-  whatsapp: "+90 555 123 45 67",
-  address: "Fatih Mahallesi, Turşu Sokak No:15, 34000 Fatih/İstanbul",
-  email: "info@vkusnokonserve.com",
+  location: "Antalya, Türkiye",
+  whatsapp: "+905388300076",
+  address: "Akçaalan Mahallesi, Tuzlaburun Caddesi, No: 191/1, Serik, Antalya, Türkiye",
+  email: "vkusnokonserve@gmail.com",
   workingHours: "Pazartesi - Cumartesi: 08:00 - 18:00"
 };
 
