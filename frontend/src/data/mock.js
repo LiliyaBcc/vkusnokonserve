@@ -1,10 +1,10 @@
 // Mock data for Turkish Pickles Production Workshop
 
 export const companyInfo = {
-  name: "Anadolu Turşuları",
-  tagline: "Geleneksel Türk Lezzetleri",
-  description: "1985'ten beri geleneksel yöntemlerle üretilen, doğal ve lezzetli turşular. Anadolu'nun en kaliteli sebzelerinden, büyükannelerimizin tarifleriyle hazırlanmış turşularımızla sofralarınızı şenlendiriyoruz.",
-  establishedYear: "1985",
+  name: "VKUSNO KONSERVE",
+  tagline: "Slav Lezzetleri Türkiye'de",
+  description: "2013'ten beri sevgiyle üretilen, doğal ve lezzetli konserveler. Büyükannelerimizin tariflerinden ilham alarak hazırladığımız geleneksel Slav tatlarını Türkiye'ye getiriyoruz.",
+  establishedYear: "2013",
   location: "İstanbul, Türkiye",
   whatsapp: "+90 555 123 45 67",
   address: "Fatih Mahallesi, Turşu Sokak No:15, 34000 Fatih/İstanbul",
