@@ -17,7 +17,7 @@ const Header = () => {
     <header className="design-header">
       <div className="nav-container">
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-primary">Anadolu Turşuları</span>
+          <span className="text-2xl font-bold text-primary">VKUSNO KONSERVE</span>
         </Link>
         
         <nav className="nav-menu">
