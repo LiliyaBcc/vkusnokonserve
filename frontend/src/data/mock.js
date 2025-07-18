@@ -70,9 +70,9 @@ export const products = [
 ];
 
 export const aboutContent = {
-  story: "Anadolu Turşuları, 1985 yılında İstanbul'da kurulan bir aile işletmesidir. Üç nesil boyunca geleneksel Türk turşu yapım yöntemlerini modern hijyen standartlarıyla birleştirerek, en kaliteli turşuları üretmektedir.",
-  mission: "Geleneksel Türk lezzetlerini koruyarak, doğal ve sağlıklı turşularla sofralarınızı şenlendirmek.",
-  vision: "Türkiye'nin en güvenilir turşu markası olmak ve geleneksel lezzetleri gelecek nesillere aktarmak.",
+  story: "VKUSNO KONSERVE, 2013 yılında İstanbul'da kurulan bir aile işletmesidir. Geleneksel Slav mutfağının lezzetlerini Türkiye'ye getirmek amacıyla kurulmuş olan şirketimiz, doğal ve kaliteli konserve üretimi yapmaktadır.",
+  mission: "Geleneksel Slav lezzetlerini koruyarak, doğal ve sağlıklı konservelerle Türkiye'deki sofralarınızı zenginleştirmek.",
+  vision: "Türkiye'nin en güvenilir Slav konserve markası olmak ve geleneksel tatları gelecek nesillere aktarmak.",
   values: [
     "Doğal malzemeler",
     "Geleneksel tarifler",
